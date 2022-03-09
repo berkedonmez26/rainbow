@@ -136,9 +136,9 @@
         "link_title": "Buy a Ledger hardware wallet"
       },
       },
-      "button": "Connect to Ledger",
+      "button": "Ledger'a bağlan",
         "description": "Connect and sign with your ",
-        "link_text": "Ledger hardware wallet",
+        "link_text": "Ledger Hardware Cüzdan",
         "link_title": "Ledger Hardware cüzdanı satın al"
       },
       "connect_metamask": {
