@@ -133,13 +133,13 @@
         "button": "Ledger'a bağlan",
         "description": "Bağlanın ve giriş yapın ",
         "link_text": "Ledger",
-        "link_title": "Buy a Ledger hardware wallet"
+        "link_title": "Ledger Cüzdan Satın al"
       },
       },
       "button": "Ledger'a bağlan",
         "description": "Connect and sign with your ",
-        "link_text": "Ledger Hardware Cüzdan",
-        "link_title": "Ledger Hardware cüzdanı satın al"
+        "link_text": "Ledger Cüzdan",
+        "link_title": "Ledger cüzdanı satın al"
       },
       "connect_metamask": {
         "button": "MetaMask'a bağlan",
@@ -175,13 +175,13 @@
       },
       "reassurance": {
         "access_link": "Bakiyenize erişme hakkınız yok",
-        "assessment": "Results of our security assessment",
+        "assessment": "Güvenlik değerlendirmemizin sonuçları",
         "security": "Fonlarınızı güvende tutmak için çok sıkı çalışıyoruz. Bu araç gizli anahtarınıza dokunmamaktadır, böylece olası saldırılara karşı size güvende tutar. Eğer kodlamaya aşina iseniz GitHub üzerinden kodlarımızı inceleyebilirsiniz",
         "security_title": "Yönetici ne kadar güvenli?",
         "source": "Kaynak Kodunu Göster",
         "text_mobile": "Bakiye Yöneticisine görüntülemek için Ethereum cüzdanı kullanmanız gerekir, send and exchange your Ether and Ethereum-based tokens.",
         "tracking_link": "Sizi asla takip etmiyoruz",
-        "work": "This is a web-based tool to help you manage the funds in your wallet. It does this by connecting to your wallet through its Application Programming Interface (API). Here are some important points about how we designed Balance Manager:",
+        "work": "Bu uygulama cüzdanınızdaki fonlarınızı kontrol etmeniz için yapılmış bir web tabanlı araçtır. Bunu cüzdanınıza uygulama programlama arayüzü (API) üzerinden bağlanarak yapmaktadır. Bakiye yöneticisini nasıl dizaynladığımıza dair bazı önemli noktalar:",
         "work_title": "Yönetici nasıl çalışır?"
       }
     },
@@ -259,11 +259,11 @@
       "confirm_tx": "%{walletName} cüzdanındaki işlemi onayla",
       "default_wallet": " Cüzdan",                 
       "deposit_dropdown_label": "Exchange my",
-      "deposit_input_label": "Pay",
-      "donate_title": "Send from %{walletName} to Balance Manager",
-      "exchange_fee": "Exchange Fee",
-      "exchange_max": "Exchange max",
-      "exchange_title": "Exchange from %{walletName}",
+      "deposit_input_label": "Öde",
+      "donate_title": "%{walletName} cüzdanından Bakiye Yöneticisine gönder",
+      "exchange_fee": "Takas işlem ücreti",
+      "exchange_max": "Maks. Takas",
+      "exchange_title": "%{walletName} cüzdanını kullanarak takasla",
       "gas_average": "Ortalama",
       "gas_fast": "Hızlı",
       "gas_fee": "İşlem Ücreti",
@@ -578,8 +578,8 @@
     },
     "walletconnect": {
       "paste_uri": {
-        "button": "Paste session URI",
-        "message": "Paste WalletConnect URI below",
+        "button": "Oturum URI'ını yapıştır",
+        "message": "WalletConnect URI'ını yapıştır",
         "title": "Yeni WalletConnect oturumu"
       }
     },
