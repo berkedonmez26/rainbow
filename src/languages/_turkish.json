@@ -387,8 +387,8 @@
       },
       "connect_trustwallet": {
         "button": "Trust Wallet'a bağlan",
-        "description_part_one": "Use the ",
-        "description_part_three": " app to connect.",
+        "description_part_one": "Bağlanmak için uygulamayı kullan ",
+        "description_part_three": " ve bağlan.",
         "description_part_two": " Ethereum ",
         "link_text_browser": "dApp Tarayıcısı",
         "link_text_wallet": "Trust Wallet",
