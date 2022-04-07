@@ -123,11 +123,11 @@
           "restore_from_cloud_platform": "%{cloudPlatformName} ile kurtarınız"
         },
         "from_key": {
-          "secret_phrase_description": "Use your secret phrase from Rainbow or another crypto wallet",
+          "secret_phrase_description": "Eneftio cüzdanınızın gizli cümlesini veya başka bir kripto cüzdanınızın gizli cümlesini kullanınız.",
           "secret_phrase_title": "Kurtarma cümlesi veya Gizli Anahtar ile cüzdanınızı kurtarın"
         },
         "watch_address": {
-          "watch_description": "Watch a public address or ENS name",
+          "watch_description": "Bir cüzdan adresini veya ENS ismini izle",
           "watch_title": "Bir Ethereum adresini izle"
         }
       }
@@ -230,7 +230,7 @@
       },
       "uniswap": {
         "data": {
-          "annualized_fees": "Yıllık ücretler",
+          "annualized_fees": "Yıllık Havuz kazançları",
           "pool_size": "Havuz boyutu",
           "profit_30_days": "30 günlük kazanç",
           "volume_24_hours": "24 saat hacim"
@@ -244,7 +244,7 @@
     "error_boundary": {
       "wallets_are_safe": "Merak etme,cüzdanın güvende! Lütfen uygulamayı tekrar başlatınız.",
       "error_boundary_oops": "Bir hata yaşandı!",
-      "restart_rainbow": "Restart Rainbow",
+      "restart_rainbow": "Eneftio'yu yeniden başlat",
       "something_went_wrong": "Bir hata yaşandı."
     },
     "exchange": {
@@ -266,7 +266,7 @@
         "losing_prefix": "Kaybedenler",
         "small_market": "Küçük Market"
       },
-      "swapping_for_prefix": "Swapping for",
+      "swapping_for_prefix": "Alınıcak Token:",
       "unverified_token": {
         "token_not_verified": "Bu Token Onaylanmamıştır! Rainbow Uniswap'daki bütün tokenları bulur. Herkes token üretebilir. Bunlara halihazırda bulunan tokenlar ve tokenı bulunmayan projeler dahildir. Lütfen onaylanmamış tokenlar ile etkileşime geçmeden önce araştırmanızı yapıp dikkat ediniz!",
         "go_back": "Geri dön",
@@ -314,8 +314,8 @@
         "token_pool": "%{tokenName} Havuzu"
       },
       "liquidity_pool": {
-        "annualized_fees": "Yıllık işlem ücretleri",
-        "fees_earned": "Fees earned",
+        "annualized_fees": "Yıllık havuz kazançları",
+        "fees_earned": "Kazanılan işlem ücretleri",
         "half": "%50",
         "pool_makeup": "Havuzun içindekiler",
         "pool_shares": "Havuz hisseleri",
@@ -332,7 +332,7 @@
         "copy_contract_address": "Kontrat adresini kopyala",
         "losing": "Kaybedenler",
         "slippage_message": "Bu küçük bir market, bu yüzden kötü bir fiyat alıyorsunuz. Daha küçük bir takas yapmaya çalış!",
-        "swapping_via": "üzerinden takas yap",
+        "swapping_via": "Takas yapılacak protokol: ",
         "unicorn_one": "Unicornlu olan",
         "uniswap_v2": "Uniswap v2",
         "view_on": "%{blockExplorerName} üzerinden görüntüle"
@@ -342,7 +342,7 @@
       },
       "token_index": {
         "get_token": "%{assetSymbol} al",
-        "makeup_of_token": "Makeup of 1 %{assetSymbol}",
+        "makeup_of_token": "Sadece %{assetSymbol} varlığından oluşmaktadır",
         "underlying_tokens": "İçindeki tokenlar"
       },
       "unique": {
@@ -365,7 +365,7 @@
       }
     },
     "homepage": {
-      "back": "rainbow.me ye geri dön",
+      "back": "Eneftio'ya geri dön",
       "coming_soon": "Çok yakında.",
       "connect_ledger": {
         "button": "Ledger'a bağlan",
@@ -381,7 +381,7 @@
       },
       "connect_trezor": {
         "button": "Trezor'a bağlan",
-        "description": "Connect and sign with your ",
+        "description": "Bağlantı yapılacak uygulama: ",
         "link_text": "Trezor Hardware Cüzdanı",
         "link_title": "Trezor Hardware Cüzdanı satın al"
       },
@@ -446,7 +446,7 @@
       "page_not_found": "404 Sayfa bulunamadı",
       "please_connect_ledger": "Lütfen bağlantı kurduktan sonra Ledger'ınızı açıp, Ethereum'u seçiniz",
       "please_connect_trezor": "Lütfen Trezor'unuzu bağlayıp talimatları takip ediniz",
-      "power_by": "Powered by",
+      "power_by": "Geliştiren: ",
       "walletconnect_not_unlocked": "Lütfen WalletConnect kullanarak bağlantı yapınız",
       "web3_not_available": "Lütfen chrome eklentisi MetaMask'ı indiriniz",
       "web3_not_unlocked": "Lütfen MetaMask'ınızın kilidini açınız",
@@ -490,7 +490,7 @@
       },
       "confirm_tx": "%{walletName} cüzdanındaki işlemi onayla",
       "default_wallet": " Cüzdan",
-      "deposit_dropdown_label": "Exchange my",
+      "deposit_dropdown_label": "Takaslanacak şey ",
       "deposit_input_label": "Öde",
       "donate_title": "%{walletName} cüzdanından Bakiye Yöneticisine gönder",
       "exchange_fee": "Takas işlem ücreti",
@@ -519,8 +519,8 @@
       "tx_fee": "İşlem Ücreti",
       "tx_hash": "İşlemin Hash'i",
       "tx_verify": "Buradan İşleminizi Onaylayınız",
-      "withdrawal_dropdown_label": "For",
-      "withdrawal_input_label": "Get"
+      "withdrawal_dropdown_label": "Kim için",
+      "withdrawal_input_label": "Al"
     },
     "notification": {
       "error": {
@@ -578,11 +578,11 @@
       "feedback_and_support": "Geri bildirim ve Destek",
       "label": "Ayarlar",
       "language": "Dil",
-      "learn": "Learn about Rainbow and Ethereum",
-      "learn_short": "Learn about Rainbow :)",
+      "learn": "Eneftio ve Ethereum hakkında daha çok şey öğren",
+      "learn_short": "Eneftio hakkında daha çok öğren şey :)",
       "network": "Ağ",
       "privacy": "Gizlilik",
-      "review": "Review Rainbow",
+      "review": "Eneftio'yu incele",
       "theme": "Tema"
     },
     "subscribe_form": {
@@ -743,7 +743,7 @@
         "cancel": "Hayır, teşekkürler",
         "choice": "Manuel olarak geri bildirim e-posta adresimizi kopyalamak ister misiniz?",
         "copy_email_address": "E-posta adresini kopyala",
-        "email_subject": "📱 Rainbow Beta Feedback",
+        "email_subject": "📱 Eneftio beta geribildirim",
         "error": "E-posta istemcisini başlatırken bir sorun yaşandı",
         "send": "Geri bildirim gönder"
       },
@@ -751,7 +751,7 @@
         "create_wallet": "Cüzdan Yarat",
         "instructions": "Lütfen cüzdanınızda kaybetmeyi göze alamayacağınız miktarlar tutmayınız.",
         "warning": "Bu yazılım Alpha aşamasındadır.",
-        "welcome": "Welcome to Rainbow"
+        "welcome": "Eneftio'ya hoşgeldiniz"
       },
       "label": "Cüzdanlarım",
       "loading": {
@@ -774,7 +774,7 @@
       },
       "push_notifications": {
         "please_enable_body": "Görünüşe göre WalletConnect kullanıyorsunuz. WalletConnect üzerinden işlemleri onaylayabilmeniz için lütfen bildirimlere izin veriniz.",
-        "please_enable_title": "Rainbow would like to send you push notifications"
+        "please_enable_title": "Eneftio sana bildirim göndermek istiyor"
       },
       "settings": {
         "copy_address": "Adresi kopyala",
